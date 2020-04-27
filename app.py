@@ -37,8 +37,7 @@ def removeProduct(name):
 
     return jsonify({'Error': 'Product {} not found !'.format(name)})
 
-#
-# if __name__=='__main__':
-#     app.run()
 
-app.run()
+if __name__=='__main__':
+    app.run()
+
